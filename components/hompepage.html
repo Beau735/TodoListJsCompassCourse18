@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple Javascript Todolist</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="/styles/style.css">
+    <script src="/scripts/backendLogic.js"></script>
+</head>
+<body>
+<!--TodoList Functionality-->
+<div class="container todolistFunctions">
+    <p class="display-4">Click to Add...</p>
+    <button onclick="addTodo()" class="btn btn-outline-secondary btn-lg">+</button>
+</div>
+
+<!--TodoList Body-->
+<div class="searchBox">
+    <input class="form-control form-control-sm todoInputField" type="text" placeholder="Let's do it ✨">
+</div>
+
+<div class="listingTodos">
+    <ul class="todoList">
+        <!-- where the Todos will appear in the future-->
+    </ul>
+</div>
+
+</body>
+</html>
